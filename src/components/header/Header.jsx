@@ -79,13 +79,14 @@ const Header = ({ type }) => {
         {type !== "list" && (
           <>
             <h1 className="headerTitle">
-              A lifetime of discounts? It's Genius.
+              Welcome!
             </h1>
             <p className="headerDesc">
-              Get rewarded for your travels – unlock instant savings of 10% or
-              more with a free Lamabooking account
+             You can solve other surveys or create surveys 
             </p>
-            <button className="headerBtn">Sign in / Register</button>
+            <button className="headerBtn">Create Survey</button>
+            &nbsp;
+            <button className="headerBtn">Take the Survey</button>
             <div className="headerSearch">
               <div className="headerSearchItem">
                 <FontAwesomeIcon icon={faBed} className="headerIcon" />

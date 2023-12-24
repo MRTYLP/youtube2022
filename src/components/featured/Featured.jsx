@@ -1,6 +1,10 @@
+import useFetch from "../../hooks/useFetch";
 import "./featured.css";
 
 const Featured = () => {
+
+ const {data,loading,error,refetch}=useFetch("")
+
   return (
     <div className="featured">
       <div className="featuredItem">
